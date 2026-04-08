@@ -4,53 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Calculator</title>
 </head>
 <body>
     
     <div class="calculator">
         <div class="header"></div>
-        <div class="screen"><span>hi</span></div>
+        <div class="screen"><span id="screenText"></span></div>
         <div class="buttons">
-            <div #="firstline">
-           <tr>
-            <td><button class="operational">CE</button></td>
-            <td><button class="operational">√</button></td>
-            <td><button class="operational">%</button></td>
-            <td><button class="operational">÷</button></td>
-           </tr>
+            <div id="firstline">
+            <button class="operational" id="clear" value="CE">CE</button>
+            <button class="operational" id="root" value="√">√</button>
+            <button class="operational" id="remainder" value="%">%</button>
+            <button class="operational" id="divide" value="÷">÷</button>
            </div>
-           <div #="secondline">
-           <tr>
-            <td><button>7</button></td>
-            <td><button>8</button></td>
-            <td><button>9</button></td>
-            <td><button class="operational">×</button></td>
-           </tr>
+           <div id="secondline">
+            <button id="seven" value="7">7</button>
+            <button id="eight" value="8">8</button>
+            <button id="nine" value="9">9</button>
+            <button class="operational" id="multiply" value="×">×</button>
            </div>
-           <div #="thirdline">
-           <tr>
-            <td><button>4</button></td>
-            <td><button>5</button></td>
-            <td><button>6</button></td>
-            <td><button class="operational">-</button></td>
-           </tr>
+           <div id="thirdline">
+            <button id="four" value="4">4</button>
+            <button id="five" value="5">5</button>
+            <button id="six" value="6">6</button>
+            <button class="operational" id="subtract" value="-">-</button>
            </div>
-           <div #="fourthline">
-           <tr>
-            <td><button>1</button></td>
-            <td><button>2</button></td>
-            <td><button>3</button></td>
-            <td><button class="operational">+</button></td>
-           </tr>
+           <div id="fourthline">
+            <button id="one" value="1">1</button>
+            <button id="two" value="2">2</button>
+            <button id="three" value="3">3</button>
+            <button class="operational" id="add" value="+">+</button>
            </div>
-           <div #="fifthline">
-           <tr>
-            <td><button>0</button></td>
-            <td><button>.</button></td>
-            <td><button class="operational">+/-</button></td>
-            <td><button class="operational">=</button></td>
-           </tr>
+           <div id="fifthline">
+            <button id="zero" value="0">0</button>
+            <button id="point" value=".">.</button>
+            <button id="enter" value="=">=</button>
            </div>
         </div>
         

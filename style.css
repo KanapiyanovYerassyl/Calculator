@@ -30,7 +30,10 @@ body {
     color: white;
 }
 
-
+.screen span {
+    margin-right: 10px;
+    font-size: xx-large;
+}
 
 .buttons{
     height:450px;
@@ -43,6 +46,11 @@ body {
 
 .operational {
     background-color: orange;
+}
+
+#enter {
+    background-color: orange;
+    width:145px;
 }
 button {
     border: none;
