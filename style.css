@@ -1,0 +1,55 @@
+
+body {
+    background-color: #8ba888;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.calculator {
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.screen{
+    margin-top: 10px;
+    background-color: gray;
+    height: 50px;
+    width: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: white;
+}
+
+
+
+.buttons{
+    height:450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:10px;
+    margin-top: 10px;
+}
+
+.operational {
+    background-color: orange;
+}
+button {
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    font-size: large;
+}
+
